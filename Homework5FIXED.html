@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork#4</title>
+</head>
+<body>
+    <h1>Dado Tea Lunch Special</h1>
+
+    <p>Monday through Friday
+    <br />
+    11am - 3pm
+    <br />
+    $9.95 plus tax
+    </p>
+    
+    <p>Includes sandwich,snack, and drink.</p>
+
+    <form>
+        <fieldset style="width:700px">
+            <legend>Order Information</legend>
+            <br />
+            <label for="Name"><b>Name:</b></label>
+            <br />
+            <input type="text" placeholder="Enter name" id="Name"/>
+            <br />
+            <br />
+            
+            <input type="radio" id="Here" name="orderInformation"/>
+            <label for="Here">Here</label>
+            <br />
+
+            <input type="radio" id="To_Go" name="orderInformation"/>
+            <label for="To_Go">To Go</label>
+            <br />
+            <br />
+            
+        </fieldset>
+        <fieldset style="width:700px">
+            <legend>Sandwiches</legend>
+            <br />
+            <p><b>Monday:</b></p>
+
+            <input type="radio" id="Tomato_Mozzarella" name="orderInfo"/>
+            <label for="Tomato_Mozzarella">Tomato Mozzarella</label>
+            <br />
+            <input type="radio" id="Chiken_Salad" name="orderInfo"/>
+            <label for="Chiken_Salad">Chiken Salad</label>
+            <br />
+            <br />
+            <p><b>Tuesday:</b></p>
+            <input type="radio" id="Greek_Salad_Wrap" name="orderInfo1"/>
+            <label for="Greek_Salad_Wrap">Greek Salad Wrap</label>
+            <br />
+            <input type="radio" id="Toto_Wrap" name="orderInfo1"/>
+            <label for="Toto_Wrap">Toto Wrap</label>
+            <br />
+            <br />
+            <p><b>Wednesday:</b></p>
+            <input type="radio" id="Red_Pepper_Hummus" name="orderInfo2"/>
+            <label for="Red_Pepper_Hummus">Red Pepper Hummus</label>
+            <br />
+            <input type="radio" id="Rosted_tuerkey" name="orderInfo2"/>
+            <label for="Rosted_tuerkey">Roasted Turkey</label>
+            <br />
+            <br />
+            <p><b>Thursday:</b></p>
+            <input type="radio" id="Carrot-Ginger_hummus_warp" name="orderInfo3"/>
+            <label for="Carrot-Ginger_hummus_warp">Carrot-Ginger Hummus Wrap</label>
+            <br />
+            <input type="radio" id="Egg_salad" name="orderInfo3"/>
+            <label for="Egg_salad">Egg Salad</label>
+            <br />
+            <br />
+            <p><b>Friday:</b></p>
+            <input type="radio" id="dado_warp" name="orderInfo4"/>
+            <label for="dado_warp">Dado Wrap</label>
+            <br />
+            <input type="radio" id="tuna_sadald" name="orderInfo4"/>
+            <label for="tuna_sadald">Tuna Salad</label>
+            <br />
+            <br />
+            <hr />
+
+            <input type="checkbox" id="gluten_free_bread"/>
+            <label for="gluten_free_bread">Gluten Free Bread(75¢ extra)</label>
+            <br />
+            <br />
+            
+        </fieldset>
+
+        <fieldset style="width:700px">
+        <legend>Snack</legend>
+        <br />
+        <p><b>Snacks:</b></p>
+        <input type="radio" id="Apple" name="orderInfo5"/>
+        <label for="Apple">Apple</label>
+        <br />
+        <input type="radio" id="Banana" name="orderInfo5"/>
+        <label for="Banana">Banana</label>
+        <br />
+        <input type="radio" id="Potato_Chips" name="orderInfo5"/>
+        <label for="Potato_Chips">Potato Chips</label>
+        <br />
+        <br />
+        
+        </fieldset>
+
+        <fieldset style="width:700px">
+            <legend>Drink</legend>
+            <br />
+            <p><b>Drinks:</b></p>
+            <label for="Drinks"></label>
+            <select>
+                <option>Hot Black Tea - Keemun</option>
+                <option>Margarita</option>
+                <option>Martini</option>
+                <option>Mojito</option>
+                <option>Whiskey Sour</option>
+                <option>Martinez</option>
+                <option disabled>Gin and Tonic</option>
+            </select>
+            <br />
+            <br />
+            <hr />
+            <input type="checkbox" id="Large_Drink"/>
+            <label for="Large_Drink">Large drink(75¢ extra)</label>
+            <br />
+            <br />
+        </fieldset>
+        <button>Place Order</button>
+    </form>
+    <br />
+</body>
+</html>
